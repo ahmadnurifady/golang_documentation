@@ -9,7 +9,6 @@ Mutex (Mutual Exclusion) adalah salah satu mekanisme sinkronisasi di Go (Golang)
 
 ### Penggunaan Mutex pada Go
 
-````go
 ```go
 package main
 
@@ -43,7 +42,6 @@ func main() {
 	fmt.Println("Final Counter:", counter)
 }
 ```
-````
 
 * `var mu sync.Mutex` mendeklarasikan mutex, dan `counter` adalah variabel bersama yang dilindungi oleh mutex.
 * Fungsi `increment` mengunci mutex sebelum mengakses dan memodifikasi `counter`, dan kemudian melepas mutex setelah selesai.
