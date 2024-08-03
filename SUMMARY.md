@@ -1,3 +1,3 @@
 # Table of contents
 
-* [golang\_documentation](README.md)
+* [Mutex](README.md)
